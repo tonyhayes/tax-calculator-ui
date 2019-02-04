@@ -67,10 +67,10 @@ submit.addEventListener('click', () => {
 		if (Http.readyState == 4) {
 			if (Http.status == 200) {
 				calculateTax(Http.responseText)
-    		} else {
+    			} else {
 				calculateTax(response)    			
+    			}
     		}
-    	}
 		console.log(Http.responseText)
 	}
 })
