@@ -59,7 +59,7 @@ submit.addEventListener('click', () => {
 	}
 	const Http = new XMLHttpRequest()
 	const url = endPoint;
-	Http.open("GET", url);
+	Http.open("GET", url); // I can't get this to work - sorry!
 	Http.setRequestHeader("content-type", "application/json");
 	Http.setRequestHeader("Authorization", "Basic aHR0cHdhdGNoOmY=");
 	Http.send();
