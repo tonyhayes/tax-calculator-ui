@@ -77,7 +77,7 @@ submit.addEventListener('click', () => {
 
 function calculateTax (data) {
 	const currency = document.querySelector('.tax-calculator-amount').value
-    const amt = Number(currency.replace(/[^0-9\.]+/g,""));
+    	const amt = Number(currency.replace(/[^0-9\.]+/g,""));
 	if (isNaN(amt) || amt == 0) {
 		return
 	}
